@@ -1,0 +1,16 @@
+PODS:
+  - gitlabflow-domainA (0.0.3)
+
+DEPENDENCIES:
+  - gitlabflow-domainA (from `../GitLabFlow-DomainA`)
+
+EXTERNAL SOURCES:
+  gitlabflow-domainA:
+    :path: "../GitLabFlow-DomainA"
+
+SPEC CHECKSUMS:
+  gitlabflow-domainA: 2e169438730aadf84e5a90a3558cdb9d80bbb709
+
+PODFILE CHECKSUM: bafa72f221aeeaa1bd0d1fa2a09d7fe88ecfbd24
+
+COCOAPODS: 1.5.3

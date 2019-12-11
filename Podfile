@@ -8,7 +8,7 @@ target 'GitLabFlow-FeatureA' do
   # Pods for GitLabFlow-FeatureA
   target 'GitLabFlow-FeatureATests' do
     inherit! :search_paths
-    pod 'DomainA', :path => '../GitLabFlow-DomainA'
+    pod 'gitlabflow-domainA', :path => '../GitLabFlow-DomainA'
 # Pods for testing
   end
 
