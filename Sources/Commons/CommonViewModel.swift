@@ -25,10 +25,14 @@ final class ExampleViewModel {
     weak var delegate: ExampleModelProtocol?
     
     //Properties
-    var headingLablel: String
+    var headingLabel: String
 //    var body: Account
     private var didLoadInitialForm = false
     private var hasRequestedReload = false
+    
+    init() {
+        headingLabel = "Test"
+    }
     
 //    init(account: Account) {
 //        self.body = account
